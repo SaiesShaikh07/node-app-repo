@@ -1,6 +1,8 @@
 const { log } = require('console');
 const os = require('os');
 
+const path=require('path');
+
 console.log('My first app');
 console.log(`File Name: ${__filename}`);
 console.log(`Directory Name: ${__dirname}`);
@@ -16,5 +18,8 @@ console.log(`Release: ${os.release()}`);
 console.log(`Type: ${os.type()}`);
 console.log(`Up time: ${os.uptime()}`);
 console.log(`User Info: ${os.userInfo()}`);
+
+console.log("=============== Built in Module - path =======================");
+
 
 
